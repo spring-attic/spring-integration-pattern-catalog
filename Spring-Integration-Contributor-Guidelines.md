@@ -37,7 +37,7 @@ _you should see branches on origin as well as upstream, including 'master' and '
 * If changes have occurred on the upstream/master while you were working you can synch again:
     - Switch back to master: `git checkout master`
     - Then: `git pull upstream master`
-    - Switch back to the topic branch: git checkout INT-123 (no -b needed since the branch already exists)
+    - Switch back to the topic branch: `git checkout INT-123` (no -b needed since the branch already exists)
     - Rebase the topic branch to minimize the distance between it and your recently synched master branch: `git rebase master`  
 (Again, for more detail see the Pro Git section on rebasing: [http://progit.org/book/ch3-6.html](http://progit.org/book/ch3-6.html))
 * Now, if you issue a pull request, it is much more likely to be merged without conflicts. Most likely, any pull request that would produce conflicts will be deferred until the issuer of that pull request makes these adjustments.
