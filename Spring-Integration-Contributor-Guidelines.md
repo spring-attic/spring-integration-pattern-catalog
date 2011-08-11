@@ -19,28 +19,28 @@ _you should see branches on origin as well as upstream, including 'master' and '
 
 ## A Day in the Life of a Contributor
 * _Always_ work on topic branches.
-* For example, to create and switch to a new branch for issue INT-123: `git checkout -b int123`
-* You might be working on several different topic branches at any given time, but when at a stopping point for one of those branches, commit (a local operation). Then to begin working on another issue (say INT-101): `git checkout int101`. The _-b_ flag is not needed if that branch already exists in your local repository.
-* When ready to resolve an issue or to collaborate with others, you can push your branch to origin (your fork), e.g.: `git push origin int123`
+* For example, to create and switch to a new branch for issue INT-123: `git checkout -b INT-123`
+* You might be working on several different topic branches at any given time, but when at a stopping point for one of those branches, commit (a local operation). Then to begin working on another issue (say INT-101): `git checkout INT-101`. The _-b_ flag is not needed if that branch already exists in your local repository.
+* When ready to resolve an issue or to collaborate with others, you can push your branch to origin (your fork), e.g.: `git push origin INT-123`
 * If you want to collaborate with another contributor, have them fork your repository (add it as a remote) and `git fetch <your-username>` to grab your branch. Alternatively, they can use `git fetch --all` to sync their local state with all of their remotes.
 * If you grant that collaborator push access to your repository, they can even apply their changes to your branch.
 * When ready for your contribution to be reviewed for potential inclusion in the master branch of the canonical spring-integration repository (what you know as 'upstream'), issue a pull request to the SpringSource repository (for more detail, see [http://help.github.com/send-pull-requests/](http://help.github.com/send-pull-requests/)).
 * The project lead may merge your changes into the upstream master branch as-is, he may keep the pull request open yet add a comment about something that should be modified, or he might reject the pull request by closing it.
-* A prerequisite for any pull request is that it will be cleanly merge-able with the upstream master's current state. **This is the responsibility of any contributor.** Any pull request that cannot be applied cleanly will most likely be rejected. For a full explanation, see the Pro Git section on rebasing: [http://progit.org/book/ch3-6.html](http://progit.org/book/ch3-6.html). As stated there: "> Often, you’ll do this to make sure your commits apply cleanly on a remote branch — perhaps in a project to which you’re trying to contribute but that you don’t maintain."
+* A prerequisite for any pull request is that it will be cleanly merge-able with the upstream master's current state. **This is the responsibility of any contributor.** If your pull request cannot be applied cleanly, the project lead will most likely add a comment requesting that you make it merge-able. For a full explanation, see the Pro Git section on rebasing: [http://progit.org/book/ch3-6.html](http://progit.org/book/ch3-6.html). As stated there: "> Often, you’ll do this to make sure your commits apply cleanly on a remote branch — perhaps in a project to which you’re trying to contribute but that you don’t maintain."
 
-## Keeping your Local Code in Synch
+## Keeping your Local Code in Sync
 * As mentioned above, you should always work on topic branches (since 'master' is a moving target). However, you do want to always keep your own 'origin' master branch in synch with the 'upstream' master.
 * Within your local working directory, you can sync up all remotes' branches with: `git fetch --all`
 * While on your own local master branch: `git pull upstream master` (which is the equivalent of fetching upstream/master and merging that into the branch you are in currently)
-* Now that you're in synch, switch to the topic branch where you plan to work, e.g.: `git checkout -b int123`
+* Now that you're in synch, switch to the topic branch where you plan to work, e.g.: `git checkout -b INT-123`
 * When you get to a stopping point: `git commit`
 * If changes have occurred on the upstream/master while you were working you can synch again:
-** Switch back to master: `git checkout master`
-** Then: `git pull upstream master`
-** Switch back to the topic branch: git checkout int123 (no -b needed since the branch already exists)
-* Rebase the topic branch to minimize the distance between it and your recently synched master branch: `git rebase master`  
+    - Switch back to master: `git checkout master`
+    - Then: `git pull upstream master`
+    - Switch back to the topic branch: git checkout INT-123 (no -b needed since the branch already exists)
+    - Rebase the topic branch to minimize the distance between it and your recently synched master branch: `git rebase master`  
 (Again, for more detail see the Pro Git section on rebasing: [http://progit.org/book/ch3-6.html](http://progit.org/book/ch3-6.html))
-* Now, if you issue a pull request, it is much more likely to be merged without conflicts. Most likely, any pull request that would produce conflicts will be rejected until the issuer of that pull request makes these adjustments.
+* Now, if you issue a pull request, it is much more likely to be merged without conflicts. Most likely, any pull request that would produce conflicts will be deferred until the issuer of that pull request makes these adjustments.
 * Assuming your pull request is merged into the 'upstream' master, you will actually end up pulling that change into your own master eventually, and at that time, you may decide to delete the topic branch from your local repository and your fork (origin) if you pushed it there.
-** to delete the local branch: git branch -d int123
-** to delete the branch from your origin: git push origin :int123
+** to delete the local branch: `git branch -d INT-123`
+** to delete the branch from your origin: `git push origin :INT-123`
