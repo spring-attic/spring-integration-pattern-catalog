@@ -42,5 +42,5 @@ _you should see branches on origin as well as upstream, including 'master' and '
 (Again, for more detail see the Pro Git section on rebasing: [http://progit.org/book/ch3-6.html](http://progit.org/book/ch3-6.html))
 * Now, if you issue a pull request, it is much more likely to be merged without conflicts. Most likely, any pull request that would produce conflicts will be deferred until the issuer of that pull request makes these adjustments.
 * Assuming your pull request is merged into the 'upstream' master, you will actually end up pulling that change into your own master eventually, and at that time, you may decide to delete the topic branch from your local repository and your fork (origin) if you pushed it there.
-** to delete the local branch: `git branch -d INT-123`
-** to delete the branch from your origin: `git push origin :INT-123`
+    - to delete the local branch: `git branch -d INT-123`
+    - to delete the branch from your origin: `git push origin :INT-123`
