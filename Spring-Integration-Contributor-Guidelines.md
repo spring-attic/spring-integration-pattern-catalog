@@ -1,4 +1,4 @@
-# Contributing to Spring Integration
+# Spring Integration Contributor Guidelines
 
 ## Fork the Repository
 1. go to [https://github.com/SpringSource/spring-integration](https://github.com/SpringSource/spring-integration)
