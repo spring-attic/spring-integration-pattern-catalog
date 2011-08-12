@@ -20,7 +20,9 @@ _you should see branches on origin as well as upstream, including 'master' and '
 ## A Day in the Life of a Contributor
 * _Always_ work on topic branches.
 * For example, to create and switch to a new branch for issue INT-123: `git checkout -b INT-123`
-* You might be working on several different topic branches at any given time, but when at a stopping point for one of those branches, commit (a local operation). Then to begin working on another issue (say INT-101): `git checkout INT-101`. The _-b_ flag is not needed if that branch already exists in your local repository.
+* You might be working on several different topic branches at any given time, but when at a stopping point for one of those branches, commit (a local operation).
+* Please follow the "Commit Guidelines" described in this chapter of Pro Git: [http://progit.org/book/ch5-2.html](http://progit.org/book/ch5-2.html)
+* Then to begin working on another issue (say INT-101): `git checkout INT-101`. The _-b_ flag is not needed if that branch already exists in your local repository.
 * When ready to resolve an issue or to collaborate with others, you can push your branch to origin (your fork), e.g.: `git push origin INT-123`
 * If you want to collaborate with another contributor, have them fork your repository (add it as a remote) and `git fetch <your-username>` to grab your branch. Alternatively, they can use `git fetch --all` to sync their local state with all of their remotes.
 * If you grant that collaborator push access to your repository, they can even apply their changes to your branch.
