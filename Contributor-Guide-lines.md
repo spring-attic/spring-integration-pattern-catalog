@@ -5,7 +5,7 @@
 2. hit the "fork" button and choose your own github account as the target
 3. for more detail see [http://help.github.com/fork-a-repo/](http://help.github.com/fork-a-repo/)
 
-## Setup your Local Development Environment
+## Setup your Local  Development Environment
 1. `git clone --recursive git@github.com:<your-github-username>/spring-integration.git`
 2. `cd spring-integration`
 3. `git remote show`  
