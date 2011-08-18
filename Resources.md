@@ -9,7 +9,9 @@ Where do I find examples and the documentation?
 
 #### Reference Documentation
 
-http://static.springsource.org/spring-integration/reference/htmlsingle/
+[HTML] (http://static.springsource.org/spring-integration/reference/htmlsingle/)
+
+[PDF](http://static.springsource.org/spring-integration/reference/pdf/spring-integration-reference.pdf)
 
 #### Spring Integration Samples
 
