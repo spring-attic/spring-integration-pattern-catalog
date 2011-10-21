@@ -1,3 +1,5 @@
-[[images/aggregator.png]]
+[[aggregator.png]]
+
+
 
 Aggregator
