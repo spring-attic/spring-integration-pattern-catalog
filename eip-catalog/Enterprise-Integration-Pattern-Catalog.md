@@ -1,6 +1,5 @@
 
-
-* Aggregator
+* [[images/aggregator.png]] Aggregator 
 * Channel
 * Enricher
 * Inbound Adapter
