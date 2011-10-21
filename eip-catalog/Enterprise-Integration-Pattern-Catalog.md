@@ -1,4 +1,5 @@
 * [[/images/aggregator.png]] Aggregator 
+![Channel](/images/channel/png)
 * Channel
 * Enricher
 * Inbound Adapter
