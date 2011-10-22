@@ -19,4 +19,4 @@
 [[/image/outbound-adapter.png]]  | Outbound-adapter
 [[/image/pubsub-channel.png]]    | Pubsub-channel
 [[/image/router.png]]            | Router
-[[/image/transformer.png]]       | Transformer
+[[/image/transformer.png]]       | [[Transformer | eip-transformer]]
