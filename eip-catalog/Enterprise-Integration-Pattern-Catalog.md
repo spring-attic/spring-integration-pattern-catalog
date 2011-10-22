@@ -1,6 +1,6 @@
                             | 
 ----------------------------|--------------
-[[/image/aggregator.png]]  | [[Aggregator|eip-aggregator]]  
+[[/image/aggregator.png]]  | [[Aggregator|/eip-catalog/eip-aggregator]]  
 [[/image/channel.png]]     | Channel
 [[/image/enricher.png]]          | Enricher
 [[/image/inbound-adapter.png]]   | Inbound Adapter
