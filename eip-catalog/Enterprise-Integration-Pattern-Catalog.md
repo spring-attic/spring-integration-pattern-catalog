@@ -1,6 +1,6 @@
                             | 
 ----------------------------|--------------
-[[/images/aggregator.png]]  | Aggregator  
+[[/image/aggregator.png]]  | Aggregator  
 [[/images/channel.png]]     | Channel
 [[/images/enricher.png]]          | Enricher
 [[/images/inbound-adapter.png]]   | Inbound Adapter
