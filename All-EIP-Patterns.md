@@ -1,4 +1,12 @@
 
+## Integration Styles
+
+                              |                                
+------------------------------|--------------------------------
+                              | File Transfer
+                              | Shared Database
+                              | Remote Procedure Invocation
+                              | Messaging
 
 ## Messaging Systems
 
@@ -30,10 +38,15 @@
 
                               |                                
 ------------------------------|--------------------------------
+                              | Command Message
+                              | Document Message
                               | Event Message
-                              | Request Reply
-                              | Correlation Identifier
+                              | Request-Reply
                               | Return Address
+                              | Correlation Identifier
+                              | Message Sequence
+                              | Message Expiration
+                              | Format Indicator
 
 ## Message Routing
 
@@ -49,23 +62,19 @@
                               | Composed Message Processor
                               | Scatter-Gather
                               | Routing Slip
-                              | Throttler
-                              | Sampling
-                              | Delayer
-                              | Load Balancer
-                              | Multicast
-                              | Loop
+                              | Process Manager
+                              | Message Broker
 
 ## Message Transformation
 
                               |                                
 ------------------------------|--------------------------------
-                              | Content Enricher
+                              | Envelope Wrapper
+                              | Content Enricher	
                               | Content Filter
                               | Claim Check
                               | Normalizer
-                              | Sort
-                              | Validate
+                              | Canonical Data Model
 
 ## Messaging Endpoints
 
