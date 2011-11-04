@@ -2,8 +2,8 @@
 
 ## Messaging Systems
 
-                                      | 
-------------------------------|--------------
+                              |                                
+------------------------------|--------------------------------
                               | Message Channel  
                               | Message
                               | Pipes and Filters
@@ -14,8 +14,8 @@
 
 ## Messaging Channels
 
-                                      |
-------------------------------|--------------
+                              |                                
+------------------------------|--------------------------------
                               | Point-to-Point Channel 
                               | Publish-Subscribe Channel
                               | Datatype Channel
@@ -28,8 +28,8 @@
 
 ## Message Construction
 
-                                     |
-------------------------------|--------------
+                              |                                
+------------------------------|--------------------------------
                               | Event Message
                               | Request Reply
                               | Correlation Identifier
@@ -37,8 +37,8 @@
 
 ## Message Routing
 
-                                     |
-------------------------------|--------------
+                              |                                
+------------------------------|--------------------------------
                               | Content Based Router
                               | Message Filter
                               | Dynamic Router
@@ -58,8 +58,8 @@
 
 ## Message Transformation
 
-                                     |
-------------------------------|--------------
+                              |                                
+------------------------------|--------------------------------
                               | Content Enricher
                               | Content Filter
                               | Claim Check
@@ -69,8 +69,8 @@
 
 ## Messaging Endpoints
 
-                                     |
-------------------------------|--------------
+                              |                                
+------------------------------|--------------------------------
                               | Messaging Gateway
                               | Messaging Mapper
                               | Transactional Client
@@ -86,8 +86,8 @@
 							
 ## System Management
 
-                                     |
-------------------------------|--------------
+                              |                                
+------------------------------|--------------------------------
                               | Control Bus
                               | Detour
                               | Wire Tap
