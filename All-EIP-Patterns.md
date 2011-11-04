@@ -1,28 +1,29 @@
+
 ## Integration Styles
 
-                              |                                
-------------------------------|--------------------------------
-                              | File Transfer
-                              | Shared Database
-                              | Remote Procedure Invocation
-                              | Messaging
+ Original EIP Representation                                                  | Pattern Name                |Equivalent in Spring Integration                               
+------------------------------------------------------------------------------|-----------------------------|--------------------------------
+ [[http://eaipatterns.com/img/FileTransferIcon.gif]]                          | File Transfer               |
+ [[http://eaipatterns.com/img/SharedDatabaseIcon.gif]]                        | Shared Database             |
+ [[http://eaipatterns.com/img/EncapsulatedSynchronousIcon.gif]]               | Remote Procedure Invocation |
+ [[http://eaipatterns.com/img/MessagingIcon.gif]]                             | Messaging                   |
 
 ## Messaging Systems
 
-                              |                                
-------------------------------|--------------------------------
-                              | Message Channel  
-                              | Message
-                              | Pipes and Filters
-                              | Message Router
-                              | Message Translator
-                              | Message Endpoint
+ Original EIP Representation                                                  | Pattern Name                |Equivalent in Spring Integration                               
+------------------------------------------------------------------------------|-----------------------------|--------------------------------
+ [[http://eaipatterns.com/img/ChannelIcon.gif]]                               | Message Channel             | [[/image/channel.png]]
+ [[http://eaipatterns.com/img/MessageIcon.gif]]                               | Message                     |
+ [[http://eaipatterns.com/img/PipesAndFiltersIcon.gif]]                       | Pipes and Filters           |
+ [[http://eaipatterns.com/img/ContentBasedRouterIcon.gif]]                    | Message Router              | 
+ [[http://eaipatterns.com/img/MessageTranslatorIcon.gif]]                     | Message Translator          | [[/image/transformer.png]]
+ [[http://eaipatterns.com/img/MessageEndpointIcon.gif]]                       | Message Endpoint            |
 
 
 ## Messaging Channels
 
-                              |                                
-------------------------------|--------------------------------
+ Original EIP Representation                                                  | Pattern Name                |Equivalent in Spring Integration                               
+------------------------------------------------------------------------------|-----------------------------|--------------------------------
                               | Point-to-Point Channel 
                               | Publish-Subscribe Channel
                               | Datatype Channel
@@ -35,8 +36,8 @@
 
 ## Message Construction
 
-                              |                                
-------------------------------|--------------------------------
+ Original EIP Representation                                                  | Pattern Name                |Equivalent in Spring Integration                               
+------------------------------------------------------------------------------|-----------------------------|--------------------------------
                               | Command Message
                               | Document Message
                               | Event Message
@@ -49,8 +50,8 @@
 
 ## Message Routing
 
-                              |                                
-------------------------------|--------------------------------
+ Original EIP Representation                                                  | Pattern Name                |Equivalent in Spring Integration                               
+------------------------------------------------------------------------------|-----------------------------|--------------------------------
                               | Content Based Router
                               | Message Filter
                               | Dynamic Router
@@ -66,8 +67,8 @@
 
 ## Message Transformation
 
-                              |                                
-------------------------------|--------------------------------
+ Original EIP Representation                                                  | Pattern Name                |Equivalent in Spring Integration                               
+------------------------------------------------------------------------------|-----------------------------|--------------------------------
                               | Envelope Wrapper
                               | Content Enricher	
                               | Content Filter
@@ -77,8 +78,8 @@
 
 ## Messaging Endpoints
 
-                              |                                
-------------------------------|--------------------------------
+ Original EIP Representation                                                  | Pattern Name                |Equivalent in Spring Integration                               
+------------------------------------------------------------------------------|-----------------------------|--------------------------------
                               | Messaging Gateway
                               | Messaging Mapper
                               | Transactional Client
@@ -94,8 +95,8 @@
 							
 ## System Management
 
-                              |                                
-------------------------------|--------------------------------
+ Original EIP Representation                                                  | Pattern Name                |Equivalent in Spring Integration                               
+------------------------------------------------------------------------------|-----------------------------|--------------------------------
                               | Control Bus
                               | Detour
                               | Wire Tap
