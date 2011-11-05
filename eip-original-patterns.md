@@ -1,3 +1,5 @@
+Spring Integration from the Original Enterprise Integration Pattern Perspective
+===============================================================================
 
 ## Integration Styles
 
