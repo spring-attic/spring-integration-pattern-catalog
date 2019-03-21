@@ -5,13 +5,13 @@ Where do I find examples and the documentation?
 
 #### Spring Integration Project Website
 
-[http://www.springsource.org/spring-integration](http://www.springsource.org/spring-integration)
+[https://www.springsource.org/spring-integration](https://www.springsource.org/spring-integration)
 
 #### Reference Documentation
 
-[HTML] (http://static.springsource.org/spring-integration/reference/htmlsingle/)
+[HTML] (https://docs.spring.io/spring-integration/reference/htmlsingle/)
 
-[PDF](http://static.springsource.org/spring-integration/reference/pdf/spring-integration-reference.pdf)
+[PDF](https://docs.spring.io/spring-integration/reference/pdf/spring-integration-reference.pdf)
 
 #### Spring Integration Samples
 
